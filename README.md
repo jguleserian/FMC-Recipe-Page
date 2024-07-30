@@ -33,8 +33,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See my solution on GitHub](https://github.com/jguleserian/FMC-Recipe-Page)
+- Live Site URL: [See the live site here](https://jguleserian.github.io/FMC-Recipe-Page/)
 
 ## My process
 
