@@ -143,7 +143,7 @@ article#preparation {
 }
 
 .ul-article>li::before {
-  content: url("assets/images/ellipse.svg");
+  content: url("/ellipse.svg");
   padding-right: 2.8rem;
   margin-top: -8px;
 }
@@ -183,7 +183,7 @@ section {
 
 .ul-ingredients>li::before {
   line-height: 150%;
-  content: url("assets/images/ellipse.svg");
+  content: url("/ellipse.svg");
   margin-top: -8px;
   padding-right: 2.8rem;
 }
