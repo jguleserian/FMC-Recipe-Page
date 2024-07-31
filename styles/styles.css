@@ -28,6 +28,7 @@ body {
   font-size: 1.6rem;
   font-family: var(--font-outfit);
   font-weight: 400;
+  color: var(--color-stone-900);
   line-height: 100%;
   background-color: var(--color-stone-100);
 }
@@ -48,7 +49,7 @@ main {
     max-width: 61.6rem;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 500px) {
     max-width: 37.5rem;
     padding: 0;
     border-radius: 0;
@@ -56,7 +57,7 @@ main {
 }
 
 header#recipe-introduction {
-  @media (max-width: 375px) {
+  @media (max-width: 500px) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -68,10 +69,10 @@ img {
   width: 100%;
   height: 30rem;
   align-self: stretch;
-  object-fit: contain;
+  object-fit: fit;
   border-radius: 1.2rem;
 
-  @media (max-width: 375px) {
+  @media (max-width: 500px) {
     height: 17.1rem;
     border-radius: 0;
   }
@@ -84,10 +85,9 @@ h1.title {
   line-height: 100%;
   font-family: "Young Serif", serif;
 
-  @media (max-width: 375px) {
+  @media (max-width: 500px) {
     font-size: 3.6rem;
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
+    padding: 0 3.2rem;
   }
 }
 
@@ -95,12 +95,21 @@ h1.title {
   margin-top: 2.4rem;
   line-height: 150%;
 
+  @media (max-width: 500px) {
+    padding: 0 3.2rem;
+  }
+
 }
 
 article#preparation {
-  padding: 2.2rem;
+  padding: 2.4rem;
   background-color: var(--color-rose-50);
   border-radius: 1.2rem;
+
+  @media (max-width: 500px) {
+    margin: 0 3.2rem;
+    padding: 2.4rem;
+  }
 }
 
 .article-heading {
@@ -108,27 +117,42 @@ article#preparation {
   font-weight: 600;
   line-height: 100%;
   color: var(--color-rose-800);
-
 }
 
 .ul-article {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: .5rem;
-  margin: 1.3rem 0 0 1rem;
+  gap: .8rem;
+  margin: 1.8rem 0 0 1rem;
   justify-content: center;
   list-style: none;
-  list-style-position: inside;
   color: var(--color-stone-600);
   line-height: 150%;
+
+  @media (max-width: 500px) {
+    gap: .8rem;
+  }
+
+}
+
+.ul-article>li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .ul-article>li::before {
-  line-height: 150%;
   content: url("/assets/images/ellipse.svg");
-  vertical-align: 3px;
   padding-right: 2.8rem;
+  margin-top: -8px;
+}
+
+section {
+  @media(max-width: 500px) {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
 }
 
 .section-heading {
@@ -144,17 +168,23 @@ article#preparation {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: .5rem;
-  padding: 2rem 0 0 .8rem;
+  gap: .8rem;
+  padding: 2.4rem 0 0 .8rem;
   list-style: none;
   color: var(--color-stone-600);
   line-height: 150%;
 }
 
+.ul-ingredients>li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .ul-ingredients>li::before {
   line-height: 150%;
   content: url("/assets/images/ellipse.svg");
-  vertical-align: 3px;
+  margin-top: -8px;
   padding-right: 2.8rem;
 }
 
@@ -163,30 +193,21 @@ hr {
   border-top: 1px solid var(--color-stone-150);
 }
 
-.table-intro {
-  line-height: 150%;
-  color: var(--color-stone-600);
-}
-
 ol {
   display: flex;
   flex-direction: column;
   gap: .8rem;
-  padding-top: 2.4rem;
+  padding: 2.4rem 0 0 2.4rem;
   list-style-position: outside;
-  padding-left: 2.4rem;
   font-family: var(--font-outfit);
 }
 
 ol>li {
   line-height: 150%;
   padding-left: 15px;
-
-
 }
 
 ol>li::marker {
-
   color: var(--color-brown-800);
   font-weight: 700;
 }
@@ -201,7 +222,12 @@ table {
   line-height: 150%;
   border-collapse: collapse;
   width: 100%;
-  margin-top: -1.2rem;
+  margin: -1.2rem 0 2.8rem 0;
+}
+
+.table-intro {
+  line-height: 150%;
+  color: var(--color-stone-600);
 }
 
 td {
