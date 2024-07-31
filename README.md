@@ -8,14 +8,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
+  - [Workflow](#workflow)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
 
 ## Overview
 
@@ -25,11 +22,20 @@ Your challenge is to build out this recipe page and get it looking as close to t
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
+**Additional challenges:**
+
+- Create a more fluid transition between the 768px and 375px sizes. Without this change (at 500px), the picture becomes very distorted and some of the text collapses and is not as easy to read.
+- Use a table to organize the nutritional information at the bottom of the recipe. While I could have created the same effect with a series of flex containers, I felt like doing so would be less organized and more difficult to understand that a table structure.
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot at 1440px](screenshot.png)
 
+Take a look at my other screenshots:
 
+[Screenshot at 768px](/screenshots/screenshot_768px.png)
+
+[Screenshot at 375px](/screenshots/screenshot_375px.png)
 
 ### Links
 
@@ -60,22 +66,18 @@ You can use any tools you like to help you complete the challenge. So if you've 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- HTML Table
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
+This project really challenged me to learn how to customize the bullet poins of ordered and unordered list. 
 
+Additionally, this is the first project in which I could utilize an HTML table. While I could have created the same effect using a series of flex containers, I liked the idea of using the table since that is actually what appears in the recipe, a table. Moreover, I felt like the HTML has better visual organization in a table structure than in a series of flex containers.
 
 ### Continued development
 
-
-
-### Useful resources
-
-
+I am looking forward to being able to tackle the customized bullet poins and text alignment in ordered and unordered lists with greater ease. I still feel like I have a lot to learn about this subject and would welcome any feedback or advice.
 
 ## Author
 
@@ -83,6 +85,5 @@ You can use any tools you like to help you complete the challenge. So if you've 
 - Frontend Mentor - [@jguleserian](https://www.frontendmentor.io/profile/jguleserian)
 - LinkedIn - [@jeffguleserian](https://www.linkedin.com/jeffguleserian)
 
-## Acknowledgments
 
 
