@@ -13,6 +13,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
+- [Acknowledgements](#acknowledgements)
+
 
 ## Overview
 
@@ -84,6 +86,10 @@ I am looking forward to being able to tackle the customized bullet poins and tex
 - GitHub - [@jguleserian](https://github.com/jguleserian)
 - Frontend Mentor - [@jguleserian](https://www.frontendmentor.io/profile/jguleserian)
 - LinkedIn - [@jeffguleserian](https://www.linkedin.com/jeffguleserian)
+
+## Acknowledgements
+
+I am indebted to Sergei, @wonderlust101, for his taking the time to look into my issues mentioned above. He showed me my error in how I was referencing the .svg from the styles.css and subsequently, why it was not showing up in Pages on GitHub.
 
 
 
